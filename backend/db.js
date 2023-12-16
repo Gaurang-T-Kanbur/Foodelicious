@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const mongoURI = ""
+const mongoURI = "mongodb+srv://Foodelicious:Foodelicious@cluster0.tgaj9cp.mongodb.net/Foodeliciousmern?retryWrites=true&w=majority"
 const mongoDB = async () => {
     try {
         await
